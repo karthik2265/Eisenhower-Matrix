@@ -1,0 +1,9 @@
+#app {
+  background-color:#998888;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
