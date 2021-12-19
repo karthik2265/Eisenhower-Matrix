@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Matrix from './Components/Matrix'
+import AddBtn from './Components/AddBtn/AddBtn'
+import Matrix from './Components/Matrix/Matrix'
 
 function App() {
   return (

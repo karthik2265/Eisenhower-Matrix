@@ -1,0 +1,17 @@
+.add-btn{
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-btn span {
+  color: white;
+}

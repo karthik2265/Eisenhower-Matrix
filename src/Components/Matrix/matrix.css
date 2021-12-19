@@ -1,0 +1,47 @@
+.matrix {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #f6f6f6;
+  margin-inline: 0.75rem;
+  border-radius: 5px;
+  height: 85vh;
+}
+
+.matrix h3 {
+  color: var(--color, black);
+  margin-bottom: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.category-indicator-symbol {
+  height: 10px;
+  width: 10px;
+  background-color: var(--color, black);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.todos-container {
+  border: 1px solid grey;
+  padding: 0.75rem;
+}
+
+.todos > * {
+  border-bottom: 0.5px solid grey;
+  padding: 0.7rem 0;
+  /* margin-bottom: 0.7rem; */
+}
+
+.todos > *:first-child {
+  border-top: 0.5px solid grey;
+}
+
+.todo-item {
+  list-style: none;
+  font-size: 18px;
+}
