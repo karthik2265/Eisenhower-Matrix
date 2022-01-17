@@ -1,7 +1,5 @@
 import React from 'react'
-import AddBtn from '../AddBtn/AddBtn'
 import TodoItem from '../TodoItem/TodoItem'
-import '../AddBtn/AddBtn.css'
 import './matrix.css'
 
 function Matrix({ todoItems }) {
@@ -24,7 +22,6 @@ function Matrix({ todoItems }) {
       <h3 style={{ "--color": "#006400" }}><div className="category-indicator-symbol"></div> Not Urgent and Unimportant</h3>
       <ul className="todos"></ul>
     </div>
-    <AddBtn />
   </div>
 }
 
